@@ -30,4 +30,9 @@ class TestCITests: XCTestCase {
         }
     }
 
+    func testCI() throws {
+        let data = 1
+        XCTAssertEqual(data, 1)
+    }
+
 }
